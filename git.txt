@@ -12,3 +12,9 @@ git reset --hard 版本号   版本号没必要写全，前几位就可以了，
 git reflog  记录你的每一次命令 找到你想恢复的版本号 git reset --hard 版本号 即可
 
 cat readme.txt   查看文件内容
+
+
+git checkout -- file  当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改
+
+git reset HEAD <file>  改乱了某个文件还添加到了暂存区，想要丢弃修改，第一步回到工作区，第二步，删除
+
