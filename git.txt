@@ -1,0 +1,7 @@
+
+
+git add readme.txt
+git commit -m "first submit"
+
+git log  历史记录
+
