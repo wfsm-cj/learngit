@@ -1,7 +1,7 @@
 
 
-git add readme.txt
-git commit -m "first submit"
+git add readme.txt     把文件修改添加到暂存区
+git commit -m "first submit"   把暂存区所有内容提交到当前分支
 
 git log  历史记录
 
