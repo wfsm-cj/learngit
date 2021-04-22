@@ -5,3 +5,6 @@ git commit -m "first submit"
 
 git log  历史记录
 
+git reset --hard HEAD^    上一个版本就是HEAD^  上上一个版本就是HEAD^^
+git reset --hard HEAD~1  
+
