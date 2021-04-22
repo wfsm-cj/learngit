@@ -26,3 +26,17 @@ git reset HEAD <file>  改乱了某个文件还添加到了暂存区，想要丢
 
 删错了，版本库里面有信息：
 	git checkout -- <file>  恢复，你会丢失最近一次提交后修改的内容
+
+
+在本地关联我的远程库
+$ git remote add origin git@github.com:wfsm-cj/learngit.git
+	关联一个远程库时，必须给远程库指定一个名字，origin是默认习惯命名
+如果关联错了：
+git remote -v  查看远程库信息
+git remote rm <name>  删除这个远程库  git remote rm origin
+然后重新关联我的远程库
+
+
+
+git push -u origin master
+第一次提交要写全，推送master分支的所有内容
